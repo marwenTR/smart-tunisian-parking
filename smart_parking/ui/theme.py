@@ -1,0 +1,45 @@
+
+
+# Palette
+NAVY        = "#17243A"
+DEEP_BLUE   = "#23395B"
+OFF_WHITE   = "#F4F7FB"
+WHITE       = "#FFFFFF"
+TEAL        = "#13A89E"
+EMERALD     = "#22A06B"
+ORANGE      = "#F0A43A"
+RED         = "#DC5454"
+
+# Derived surfaces
+SIDEBAR_BG      = NAVY
+SIDEBAR_HOVER   = "#1F3050"
+SIDEBAR_ACTIVE  = DEEP_BLUE
+CONTENT_BG      = OFF_WHITE
+CARD_BG         = WHITE
+BORDER          = "#E3E9F2"
+TEXT_PRIMARY    = NAVY
+TEXT_SECONDARY  = "#6B7A90"
+TEXT_ON_DARK    = "#E8EEF7"
+TEXT_MUTED_DARK = "#9FB0C8"
+
+# Status colors
+STATUS_PARKED    = EMERALD
+STATUS_COMPLETED = DEEP_BLUE
+STATUS_WARN      = ORANGE
+STATUS_ERROR     = RED
+
+# Fonts (Segoe UI on Windows, fallbacks fine on other OSes)
+FONT_FAMILY   = "Segoe UI"
+FONT_BRAND    = (FONT_FAMILY, 18, "bold")
+FONT_NAV      = (FONT_FAMILY, 13)
+FONT_NAV_ACT  = (FONT_FAMILY, 13, "bold")
+FONT_H1       = (FONT_FAMILY, 24, "bold")
+FONT_H2       = (FONT_FAMILY, 16, "bold")
+FONT_CARD_NUM = (FONT_FAMILY, 32, "bold")
+FONT_CARD_LBL = (FONT_FAMILY, 12)
+FONT_BODY     = (FONT_FAMILY, 12)
+FONT_SMALL    = (FONT_FAMILY, 11)
+
+# Spacing
+PAD_XS, PAD_S, PAD_M, PAD_L, PAD_XL = 6, 10, 16, 24, 32
+RADIUS_CARD, RADIUS_BTN = 14, 10

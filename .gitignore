@@ -1,0 +1,22 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# AI Models (Too large for GitHub)
+models/*.pt
+
+# Database (Local data shouldn't be on GitHub)
+database/parking.db
+
+# IDE Settings
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
